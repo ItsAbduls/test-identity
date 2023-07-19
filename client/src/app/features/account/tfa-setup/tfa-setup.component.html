@@ -1,0 +1,53 @@
+<div class="small-info-page" *ngIf="tfa?.islogin || isGenerate">
+    <mat-card>
+        <div align="center">
+            <mat-card-title>Please install Google Authenticator if you don't have.</mat-card-title>
+            <mat-card-content>
+                <div class="container">
+                    <div class="row">
+
+                        <h5 style="border-bottom: 1px solid #a8a8a8; padding-bottom: 5px;">Setup tfa?</h5>
+
+                        <span *ngIf="!!tfa?.setupCode">
+
+                            <p>Scan the QR code or enter the secret key in Google Authenticator</p>
+
+                            <img [src]="tfa?.barcodeImageUrl" alt="" class="img-thumbnail"
+                                style="display:block;margin:auto">
+
+                            <span>Secret Key - {{tfa?.setupCode}}</span>
+
+                            <p>Auth Type - Time Based - OTP</p>
+
+                            <form [formGroup]="tfaVerificationForm" (ngSubmit)="verify2fa()">
+                                <mat-form-field class="full-width-input">
+                                    <input matInput type="text" name="passCode" placeholder="Enter the Auth Code"
+                                        formControlName="passCode" required>
+                                </mat-form-field>
+                                <br>
+                                <div class="margin-top-25">
+                                    <button type="submit" [disabled]="!tfaVerificationForm.valid" mat-raised-button
+                                        color="primary">Verify</button>
+                                </div>
+                            </form>
+                            <p class="text-danger" style="text-align:center;" *ngIf="errorMessage">{{errorMessage}}</p>
+                        </span>
+                    </div>
+                </div>
+            </mat-card-content>
+        </div>
+    </mat-card>
+</div>
+<div class="small-info-page">
+    <mat-card>
+        <mat-card-title>Generate 2fa if you don't have.</mat-card-title>
+        <mat-form-field class="full-width-input">
+            <input matInput placeholder="Email" [(ngModel)]="email" required>
+        </mat-form-field>
+
+        <mat-card-content>
+            <button [disabled]="email == null || email == ''" mat-raised-button color="primary"
+                (click)="generate2fa()">Generate</button>
+        </mat-card-content>
+    </mat-card>
+</div>

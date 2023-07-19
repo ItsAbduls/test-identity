@@ -1,0 +1,1496 @@
+2022-03-05 12:54:47.897 +05:00 [ERR] You must either set Authority or IntrospectionEndpoint
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+2022-03-05 12:54:47.960 +05:00 [INF] Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint
+2022-03-05 12:54:48.271 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at Insig.Common.Configuration.ApplicationBuilderExtensions.<>c.<<RemoveServerHeader>b__0_0>d.MoveNext() in D:\courses\signalR\angular_core\Insig\Insig.Common\Configuration\ApplicationBuilderExtensions.cs:line 15
+--- End of stack trace from previous location ---
+   at NWebsec.AspNetCore.Middleware.Middleware.CspMiddleware.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-05 12:55:28.431 +05:00 [ERR] You must either set Authority or IntrospectionEndpoint
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+2022-03-05 12:55:28.432 +05:00 [INF] Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint
+2022-03-05 12:55:28.521 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at Insig.Common.Configuration.ApplicationBuilderExtensions.<>c.<<RemoveServerHeader>b__0_0>d.MoveNext() in D:\courses\signalR\angular_core\Insig\Insig.Common\Configuration\ApplicationBuilderExtensions.cs:line 15
+--- End of stack trace from previous location ---
+   at NWebsec.AspNetCore.Middleware.Middleware.CspMiddleware.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-05 12:55:50.622 +05:00 [ERR] You must either set Authority or IntrospectionEndpoint
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+2022-03-05 12:55:50.624 +05:00 [INF] Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint
+2022-03-05 12:55:50.709 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at Insig.Common.Configuration.ApplicationBuilderExtensions.<>c.<<RemoveServerHeader>b__0_0>d.MoveNext() in D:\courses\signalR\angular_core\Insig\Insig.Common\Configuration\ApplicationBuilderExtensions.cs:line 15
+--- End of stack trace from previous location ---
+   at NWebsec.AspNetCore.Middleware.Middleware.CspMiddleware.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-05 13:06:01.400 +05:00 [ERR] You must either set Authority or IntrospectionEndpoint
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+2022-03-05 13:06:01.401 +05:00 [INF] Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint
+2022-03-05 13:06:01.493 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at Insig.Common.Configuration.ApplicationBuilderExtensions.<>c.<<RemoveServerHeader>b__0_0>d.MoveNext() in D:\courses\signalR\angular_core\Insig\Insig.Common\Configuration\ApplicationBuilderExtensions.cs:line 15
+--- End of stack trace from previous location ---
+   at NWebsec.AspNetCore.Middleware.Middleware.CspMiddleware.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at NWebsec.AspNetCore.Middleware.Middleware.MiddlewareBase.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-05 13:10:25.156 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-05 13:19:37.709 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 14:38:05.817 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 14:39:13.548 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 14:39:52.438 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 14:41:31.889 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 14:42:13.228 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 14:52:12.697 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 15:15:28.945 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 15:19:41.970 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 15:39:23.119 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 15:44:12.292 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 15:47:28.363 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 16:10:03.980 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 16:11:29.844 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 16:11:37.975 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 16:18:49.526 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-07 16:20:17.295 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:36:27.291 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:38:20.426 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:39:48.994 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:41:15.968 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:44:07.816 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:44:07.816 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:44:07.816 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:44:08.529 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:44:08.995 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:44:09.020 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:44:26.816 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:53:23.470 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:53:23.470 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:53:23.470 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:53:24.262 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-03-09 23:53:24.792 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:53:25.039 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:53:29.101 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:54:25.058 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:54:25.059 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:54:25.059 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:54:25.059 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:54:25.145 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:54:25.227 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:54:25.328 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-03-09 23:56:15.885 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:16.052 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:16.366 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:18.198 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:50.714 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:50.714 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:50.715 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:51.066 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:51.940 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:56:52.749 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-03-09 23:57:01.630 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-09 23:59:03.661 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-09 23:59:07.316 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:00:23.321 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:00:23.495 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:00:23.501 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:00:23.843 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:00:23.960 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:00:24.009 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:00:25.742 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 00:03:29.697 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:03:29.697 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:03:29.697 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:03:29.711 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 00:03:29.817 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:03:29.927 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:03:29.967 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:27:48.367 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:27:48.364 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:27:48.366 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:27:48.861 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:27:48.930 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:27:49.013 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 00:27:50.263 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 07:55:51.416 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 07:55:51.489 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 07:55:51.500 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 07:55:51.534 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 07:55:51.558 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 07:55:51.578 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 07:55:51.602 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 19:21:27.136 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 19:21:27.475 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 20:58:00.089 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:08:38.612 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:08:39.055 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:08:39.120 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:08:48.098 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:08:48.100 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:08:54.103 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:09:32.555 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:31:15.433 +05:00 [ERR] Not connected to Redis.
+2022-03-10 21:31:15.433 +05:00 [ERR] Not connected to Redis.
+2022-03-10 21:31:15.433 +05:00 [ERR] Not connected to Redis.
+2022-03-10 21:41:36.200 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:41:36.200 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:41:36.200 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:41:36.840 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:41:37.252 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:41:37.687 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:41:39.550 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:42:15.876 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:42:15.878 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:42:15.878 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:42:15.925 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:42:16.055 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:42:16.229 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:42:16.264 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:44:53.735 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:44:53.836 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:44:53.767 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:45:01.016 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:45:04.358 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:45:05.636 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:45:13.899 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:46:16.353 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:46:16.542 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:46:16.543 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:46:16.554 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:46:16.622 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:46:16.915 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:46:17.327 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:47:54.393 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:47:57.485 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:47:57.486 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:47:57.558 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:47:58.181 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:47:58.568 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:47:58.568 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:13.559 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:13.559 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:13.561 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:13.563 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:48:16.672 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:18.039 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:18.724 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:45.037 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:45.037 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:45.038 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:46.270 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:48:48.242 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:48.610 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:48:48.996 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:49:00.331 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:49:00.331 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:49:00.332 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:49:00.399 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:49:00.472 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:49:00.683 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:49:00.790 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:50:21.430 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:50:21.703 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:51:24.671 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:51:24.671 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:51:24.671 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:51:27.227 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:51:28.638 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:51:29.032 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:51:31.009 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:55:37.768 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:37.775 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:37.776 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:37.825 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:55:37.938 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:38.047 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:38.094 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:50.527 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:50.528 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:50.530 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:50.550 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 21:55:50.731 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:50.867 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 21:55:51.028 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 22:56:45.097 +05:00 [FTL] Application startup exception
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Microsoft.AspNetCore.SignalR.HubConnectionHandler`1[[Insig.Infrastructure.Hubs.ViewHub, Insig.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisHubLifetimeManager`1[[Insig.Infrastructure.Hubs.ViewHub, Insig.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while invoking the constructor 'Void .ctor(Microsoft.Extensions.Logging.ILogger`1[Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisHubLifetimeManager`1[Insig.Infrastructure.Hubs.ViewHub]], Microsoft.Extensions.Options.IOptions`1[Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisOptions], Microsoft.AspNetCore.SignalR.IHubProtocolResolver, Microsoft.Extensions.Options.IOptions`1[Microsoft.AspNetCore.SignalR.HubOptions], Microsoft.Extensions.Options.IOptions`1[Microsoft.AspNetCore.SignalR.HubOptions`1[Insig.Infrastructure.Hubs.ViewHub]])' on type 'RedisHubLifetimeManager`1'.
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'configuration')
+   at StackExchange.Redis.ConfigurationOptions.DoParse(String configuration, Boolean ignoreUnknown) in /_/src/StackExchange.Redis/ConfigurationOptions.cs:line 646
+   at StackExchange.Redis.ConfigurationOptions.Parse(String configuration) in /_/src/StackExchange.Redis/ConfigurationOptions.cs:line 421
+   at Microsoft.Extensions.DependencyInjection.StackExchangeRedisDependencyInjectionExtensions.<>c__DisplayClass1_0.<AddStackExchangeRedis>b__0(RedisOptions o)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisHubLifetimeManager`1..ctor(ILogger`1 logger, IOptions`1 options, IHubProtocolResolver hubProtocolResolver, IOptions`1 globalHubOptions, IOptions`1 hubOptions)
+   at lambda_method318(Closure , Object[] )
+   at Autofac.Core.Activators.Reflection.BoundConstructor.Instantiate()
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Activators.Reflection.BoundConstructor.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetServiceOrCreateInstance[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Connections.ConnectionBuilderExtensions.UseConnectionHandler[TConnectionHandler](IConnectionBuilder connectionBuilder)
+   at Microsoft.AspNetCore.SignalR.SignalRConnectionBuilderExtensions.UseHub[THub](IConnectionBuilder connectionBuilder)
+   at Microsoft.AspNetCore.Builder.HubEndpointRouteBuilderExtensions.<>c__2`1.<MapHub>b__2_0(IConnectionBuilder b)
+   at Microsoft.AspNetCore.Builder.ConnectionEndpointRouteBuilderExtensions.MapConnections(IEndpointRouteBuilder endpoints, String pattern, HttpConnectionDispatcherOptions options, Action`1 configure)
+   at Microsoft.AspNetCore.Builder.HubEndpointRouteBuilderExtensions.MapHub[THub](IEndpointRouteBuilder endpoints, String pattern, Action`1 configureOptions)
+   at Microsoft.AspNetCore.Builder.HubEndpointRouteBuilderExtensions.MapHub[THub](IEndpointRouteBuilder endpoints, String pattern)
+   at Insig.Api.Startup.<>c.<Configure>b__5_1(IEndpointRouteBuilder configure) in D:\courses\signalR\angular_core\Insig\Insig.Api\Startup.cs:line 76
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at Insig.Api.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in D:\courses\signalR\angular_core\Insig\Insig.Api\Startup.cs:line 74
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.WebTools.BrowserLink.Net.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-03-10 23:10:47.121 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:10:47.126 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:10:47.119 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:10:47.867 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:10:48.275 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:10:48.276 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:10:51.354 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 23:11:41.288 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:11:41.289 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:11:41.290 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:11:41.445 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:11:41.445 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 23:11:41.544 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:11:41.694 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:16:30.794 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:16:30.896 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:16:30.867 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:16:32.304 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:16:32.329 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:16:32.414 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:16:35.649 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 23:24:49.916 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:24:49.916 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:24:49.916 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:24:50.409 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:24:50.565 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:24:50.626 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:24:52.014 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 23:28:59.050 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:28:59.050 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:28:59.050 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:28:59.056 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 23:28:59.067 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:28:59.102 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:28:59.120 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:29:14.060 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:29:14.065 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:29:14.102 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:29:14.135 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 23:29:14.298 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:29:14.468 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:29:14.503 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:44:28.754 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:44:28.940 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:44:58.808 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:44:58.808 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:44:58.832 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:44:59.000 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:44:59.135 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:44:59.263 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-10 23:45:00.550 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-10 23:52:39.229 +05:00 [ERR] Not connected to Redis.
+2022-03-10 23:52:39.421 +05:00 [ERR] Not connected to Redis.
+2022-03-10 23:52:39.547 +05:00 [ERR] Not connected to Redis.
+2022-03-10 23:54:50.301 +05:00 [ERR] Not connected to Redis.
+2022-03-10 23:54:50.308 +05:00 [ERR] Not connected to Redis.
+2022-03-11 00:02:56.463 +05:00 [ERR] Not connected to Redis.
+2022-03-11 00:02:56.463 +05:00 [ERR] Not connected to Redis.
+2022-03-11 00:02:56.463 +05:00 [ERR] Not connected to Redis.
+2022-03-11 14:03:47.243 +05:00 [ERR] Not connected to Redis.
+2022-03-11 14:03:47.243 +05:00 [ERR] Not connected to Redis.
+2022-03-11 14:03:50.915 +05:00 [ERR] Not connected to Redis.
+2022-03-11 14:11:23.091 +05:00 [ERR] Not connected to Redis.
+2022-03-11 14:11:23.091 +05:00 [ERR] Not connected to Redis.
+2022-03-11 14:11:23.091 +05:00 [ERR] Not connected to Redis.
+2022-03-11 14:39:50.910 +05:00 [ERR] Not connected to Redis.
+2022-03-11 14:41:59.431 +05:00 [ERR] Connection to Redis failed.
+StackExchange.Redis.RedisConnectionException: SocketFailure on stack-redis.redis.cache.windows.net:6380/Subscription, origin: EndReading, input-buffer: 0, outstanding: 93, last-read: 127s ago, last-write: 0s ago, unanswered-write: 119s ago, keep-alive: 60s, pending: 0, state: ConnectedEstablished, in: 0, ar: 0, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago
+ ---> System.AggregateException: One or more errors occurred. (Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..)
+ ---> System.IO.IOException: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   --- End of inner exception stack trace ---
+   at StackExchange.Redis.PhysicalConnection.EndReading(Task`1 result) in c:\code\StackExchange.Redis\StackExchange.Redis\StackExchange\Redis\PhysicalConnection.cs:line 852
+   --- End of inner exception stack trace ---
+2022-03-11 14:59:30.508 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 14:59:30.508 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 14:59:30.508 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 14:59:30.857 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 14:59:30.953 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 14:59:31.036 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 14:59:32.763 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 14:59:32.881 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:00:15.901 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:00:15.976 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:00:15.989 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:00:16.003 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:00:16.018 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:00:16.048 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:00:16.092 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:00:16.704 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:02:26.754 +05:00 [ERR] Not connected to Redis.
+2022-03-11 15:02:42.077 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:02:42.213 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:02:42.316 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:02:42.365 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:04:40.091 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:04:40.091 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:04:41.325 +05:00 [ERR] Failed disposing connection JuWzZL4TUaDXIl7j2VleiQ.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:04:41.489 +05:00 [ERR] Failed disposing connection UcSW-H1_WondwlKGpuw6HA.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:05:35.494 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:05:35.495 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:05:35.509 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:05:35.973 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:05:36.166 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:05:36.205 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:05:36.910 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:05:38.752 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:07:46.817 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:07:48.003 +05:00 [ERR] Failed disposing connection rDbZzQVGzcOrH0twpCKbAw.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:07:48.320 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:07:48.401 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:07:48.402 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:07:48.402 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:07:48.602 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:07:48.853 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:07:49.002 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:07:49.817 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:11:46.445 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:11:46.445 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:11:46.445 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:11:47.124 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:11:47.359 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:11:47.399 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:11:52.247 +05:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnConnectedAsync() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 29
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2022-03-11 15:11:54.962 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:15:35.769 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:15:35.769 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:15:35.769 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:15:36.074 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:15:36.174 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:15:36.194 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:15:37.181 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:15:37.557 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:19:35.932 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:19:36.107 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:19:53.176 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:19:54.012 +05:00 [ERR] Failed disposing connection G11pGqhp7mea1kLPotEuUA.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:19:54.130 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:19:54.130 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:19:54.136 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:19:54.406 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:19:54.860 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:19:54.974 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:20:00.230 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:20:02.198 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:20:13.316 +05:00 [ERR] Failed to invoke hub method 'TriggerGroup'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendGroupAsync(String groupName, String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.GroupProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ColorHub.TriggerGroup(String groupName) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ColorHub.cs:line 17
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:22:47.605 +05:00 [ERR] Failed to invoke hub method 'TriggerGroup'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendGroupAsync(String groupName, String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.GroupProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ColorHub.TriggerGroup(String groupName) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ColorHub.cs:line 17
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:24:54.528 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:24:57.655 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:26:41.532 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:26:41.984 +05:00 [ERR] Failed disposing connection LKX-6Dyn_2F_AHUy5JNKlA.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:26:42.515 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:26:42.516 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:26:42.574 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:26:42.649 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:26:42.785 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:26:42.989 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:26:43.535 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:26:44.932 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:27:07.336 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:27:13.893 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:29:21.902 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:29:53.210 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:29:53.544 +05:00 [ERR] Failed disposing connection 1_HKkPPnhiJD5K4yreAREw.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:29:54.067 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:29:54.216 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:29:54.265 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:29:54.265 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:29:54.476 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:29:54.624 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:29:54.711 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:29:55.021 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:30:02.408 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:30:40.290 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:34:41.554 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:34:42.227 +05:00 [ERR] Failed disposing connection n4nsHMP3Y6PWQqaDvyTj3A.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:34:42.279 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:34:42.344 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:34:42.344 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:34:42.387 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:34:42.712 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:34:42.799 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:34:42.907 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:34:43.540 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:35:08.124 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:35:08.549 +05:00 [ERR] Failed disposing connection RYdiG_dRH-USByMyl8qLCQ.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:35:08.999 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:35:09.000 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:35:09.001 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:35:09.025 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:35:09.299 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:35:09.419 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:35:09.467 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:35:13.976 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:36:20.788 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:37:55.555 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:37:56.362 +05:00 [ERR] Failed disposing connection n_EbiRMc_ABxlLT7Z2X4FA.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:37:56.466 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:37:56.568 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:37:56.568 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:37:56.584 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:37:56.603 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:37:56.711 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:37:56.811 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:37:57.308 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:38:32.224 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:43:51.765 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:43:52.503 +05:00 [ERR] Failed disposing connection yu7hO5BGttbPTdIZ4oCFDg.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:43:54.011 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:43:54.050 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:43:54.062 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:43:54.113 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:43:56.619 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:43:57.324 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:43:57.358 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:43:58.745 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:44:08.329 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:45:04.117 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:46:19.788 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:46:20.530 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:46:20.531 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:46:20.534 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:46:20.559 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 15:46:21.609 +05:00 [ERR] Failed disposing connection 5yPrVT25lMZ8UwB0D4MHIw.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:46:21.664 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:46:21.706 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:46:22.290 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:46:23.474 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:46:31.241 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:46:42.992 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:48:46.203 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 15:48:46.362 +05:00 [ERR] Error when dispatching 'OnDisconnectedAsync' on hub.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2022-03-11 15:48:46.376 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:48:47.709 +05:00 [ERR] Failed disposing connection gc3jayzha1Bhhj0RfrK_Tg.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.OnDisconnectedAsync(Exception exception) in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 36
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully)
+2022-03-11 15:48:47.729 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 15:48:56.534 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 16:05:00.165 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:05:00.165 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:06:43.808 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:06:43.808 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:06:43.820 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:06:59.918 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:06:59.918 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:07:06.376 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:07:17.195 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 16:07:20.357 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 16:08:03.936 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+System.TypeLoadException: Could not load type 'MessagePack.MessagePackBinary' from assembly 'MessagePack, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be'.
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args, IReadOnlyList`1 excludedConnectionIds)
+   at Microsoft.AspNetCore.SignalR.Redis.Internal.RedisProtocol.WriteInvocation(String methodName, Object[] args)
+   at Microsoft.AspNetCore.SignalR.Redis.RedisHubLifetimeManager`1.SendAllAsync(String methodName, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.Internal.AllClientProxy`1.SendCoreAsync(String method, Object[] args, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SignalR.ClientProxyExtensions.SendAsync(IClientProxy clientProxy, String method, Object arg1, CancellationToken cancellationToken)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 16:17:54.966 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:17:54.967 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:17:54.966 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:17:55.391 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:17:55.564 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:17:55.753 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:17:57.510 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 16:17:59.018 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:18:00.219 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+StackExchange.Redis.RedisConnectionException: No connection is active/available to service this operation: PUBLISH Insig.Infrastructure.Hubs.ViewHub:all; UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 2s ago, v: 2.2.4.27433, mc: 1/1/0, mgr: 10 of 10 available, clientName: DRAGON, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=32765,Min=4,Max=32767), v: 2.2.4.27433
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 2s ago, v: 2.2.4.27433
+   at StackExchange.Redis.TaskExtensions.TimeoutAfter(Task task, Int32 timeoutMs) in /_/src/StackExchange.Redis/TaskExtensions.cs:line 48
+   at StackExchange.Redis.ConnectionMultiplexer.WaitAllIgnoreErrorsAsync(Task[] tasks, Int32 timeoutMilliseconds, LogProxy log, String caller, Int32 callerLineNumber) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 740
+   --- End of inner exception stack trace ---
+   at StackExchange.Redis.ConnectionMultiplexer.ThrowFailed[T](TaskCompletionSource`1 source, Exception unthrownException) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2760
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisHubLifetimeManager`1.PublishAsync(String channel, Byte[] payload)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 16:18:02.179 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:18:02.385 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:20:18.837 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:20:19.948 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:20:20.627 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:20:29.278 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:20:29.278 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:20:29.278 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:20:30.042 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:20:30.362 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:20:30.371 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:20:38.877 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+StackExchange.Redis.RedisConnectionException: No connection is active/available to service this operation: PUBLISH Insig.Infrastructure.Hubs.ViewHub:all; UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 3s ago, last-write: 3s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433, mc: 1/1/0, mgr: 10 of 10 available, clientName: DRAGON, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=32764,Min=4,Max=32767), v: 2.2.4.27433
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 3s ago, last-write: 3s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+   at StackExchange.Redis.TaskExtensions.TimeoutAfter(Task task, Int32 timeoutMs) in /_/src/StackExchange.Redis/TaskExtensions.cs:line 48
+   at StackExchange.Redis.ConnectionMultiplexer.WaitAllIgnoreErrorsAsync(Task[] tasks, Int32 timeoutMilliseconds, LogProxy log, String caller, Int32 callerLineNumber) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 740
+   --- End of inner exception stack trace ---
+   at StackExchange.Redis.ConnectionMultiplexer.ThrowFailed[T](TaskCompletionSource`1 source, Exception unthrownException) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2760
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisHubLifetimeManager`1.PublishAsync(String channel, Byte[] payload)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 16:20:40.290 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 16:21:02.655 +05:00 [ERR] Failed to invoke hub method 'IncrementServerView'.
+StackExchange.Redis.RedisConnectionException: No connection is active/available to service this operation: PUBLISH Insig.Infrastructure.Hubs.ViewHub:all; UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 3s ago, last-write: 3s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433, mc: 1/1/0, mgr: 10 of 10 available, clientName: DRAGON, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=8,Free=32759,Min=4,Max=32767), v: 2.2.4.27433
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 3s ago, last-write: 3s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+   at StackExchange.Redis.TaskExtensions.TimeoutAfter(Task task, Int32 timeoutMs) in /_/src/StackExchange.Redis/TaskExtensions.cs:line 48
+   at StackExchange.Redis.ConnectionMultiplexer.WaitAllIgnoreErrorsAsync(Task[] tasks, Int32 timeoutMilliseconds, LogProxy log, String caller, Int32 callerLineNumber) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 740
+   --- End of inner exception stack trace ---
+   at StackExchange.Redis.ConnectionMultiplexer.ThrowFailed[T](TaskCompletionSource`1 source, Exception unthrownException) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2760
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisHubLifetimeManager`1.PublishAsync(String channel, Byte[] payload)
+   at Insig.Infrastructure.Hubs.ViewHub.IncrementServerView() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 23
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 16:29:01.995 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:29:05.009 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:29:05.633 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:29:23.012 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:29:23.013 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:29:23.013 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:29:23.639 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:29:24.058 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:29:24.238 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:29:33.275 +05:00 [ERR] Failed to invoke hub method 'NotifyWatching'.
+StackExchange.Redis.RedisConnectionException: No connection is active/available to service this operation: PUBLISH Insig.Infrastructure.Hubs.ViewHub:all; UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433, mc: 1/1/0, mgr: 10 of 10 available, clientName: DRAGON, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=32764,Min=4,Max=32767), v: 2.2.4.27433
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+   at StackExchange.Redis.TaskExtensions.TimeoutAfter(Task task, Int32 timeoutMs) in /_/src/StackExchange.Redis/TaskExtensions.cs:line 48
+   at StackExchange.Redis.ConnectionMultiplexer.WaitAllIgnoreErrorsAsync(Task[] tasks, Int32 timeoutMilliseconds, LogProxy log, String caller, Int32 callerLineNumber) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 740
+   --- End of inner exception stack trace ---
+   at StackExchange.Redis.ConnectionMultiplexer.ThrowFailed[T](TaskCompletionSource`1 source, Exception unthrownException) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2760
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisHubLifetimeManager`1.PublishAsync(String channel, Byte[] payload)
+   at Insig.Infrastructure.Hubs.ViewHub.NotifyWatching() in D:\courses\signalR\angular_core\Insig\Insig.Infrastructure\Hubs\ViewHub.cs:line 14
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2022-03-11 16:29:36.212 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 16:30:41.900 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:30:44.243 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:31:08.794 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:31:08.936 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:31:08.936 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:31:09.059 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:31:09.419 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:31:09.419 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:31:12.069 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 16:32:15.622 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:32:15.623 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:32:15.704 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:32:15.730 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 16:32:15.742 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:32:15.898 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:32:16.384 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:33:49.817 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:33:49.817 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:33:49.876 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:33:50.072 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 16:33:50.143 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:33:50.288 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:33:50.700 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:36:02.814 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:36:02.814 +05:00 [ERR] Not connected to Redis.
+2022-03-11 16:37:04.483 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:37:04.490 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:37:04.483 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:37:04.915 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:37:05.118 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:37:05.249 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 16:37:09.490 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 20:17:23.867 +05:00 [ERR] Not connected to Redis.
+2022-03-11 20:17:23.864 +05:00 [ERR] Not connected to Redis.
+2022-03-11 20:17:35.131 +05:00 [ERR] Not connected to Redis.
+2022-03-11 20:35:15.128 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:35:15.085 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:35:15.129 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:35:16.586 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:35:17.067 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:35:17.359 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:35:22.724 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 20:37:22.279 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:37:22.405 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:37:22.456 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:37:22.795 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 20:37:23.090 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:37:23.347 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:37:23.885 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:41:11.329 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:41:11.538 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:41:55.352 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:41:55.354 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:41:55.369 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:41:56.748 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:41:57.970 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:41:59.034 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 20:42:06.258 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 21:03:48.731 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:03:48.733 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:03:48.734 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:03:48.812 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 21:03:48.906 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:03:49.409 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:03:49.409 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:10:25.569 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:10:25.569 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:10:25.580 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:10:25.693 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:10:25.726 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:10:25.748 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:34:56.342 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:34:56.342 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:34:56.360 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:34:56.463 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:34:56.482 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 21:34:56.502 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:10:10.328 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:10:10.344 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:10:10.328 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:10:10.328 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:10:17.829 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:10:17.830 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:10:27.335 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:10:34.610 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:13:33.483 +05:00 [ERR] Not connected to Redis.
+2022-03-11 22:14:24.266 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:14:24.512 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:14:24.513 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:14:30.055 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:14:40.118 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:14:40.118 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:14:43.589 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:14:44.395 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:15:08.107 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 22:18:52.067 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:18:52.068 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:18:52.068 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:18:52.069 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:18:52.103 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 22:18:52.201 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:18:52.233 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:18:52.258 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 22:18:52.280 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:11:57.065 +05:00 [ERR] Not connected to Redis.
+2022-03-11 23:24:46.676 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:24:49.705 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:22.904 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:22.904 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:22.904 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:22.904 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:22.970 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:23.058 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:23.173 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:23.284 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:25:24.947 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 23:28:38.454 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:28:38.455 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:28:38.455 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:28:38.458 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:28:39.139 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 23:28:39.140 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:28:39.198 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:28:39.242 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:28:39.293 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:29:16.424 +05:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2022-03-11 23:29:17.626 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:29:17.626 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:29:17.626 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:29:17.630 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:29:17.769 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:29:17.938 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:29:18.083 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-03-11 23:29:18.250 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-12 20:19:49.100 +04:00 [ERR] Not connected to Redis.
+2023-07-12 20:19:49.293 +04:00 [ERR] Not connected to Redis.
+2023-07-12 20:19:49.525 +04:00 [ERR] Not connected to Redis.
+2023-07-15 17:55:21.366 +04:00 [ERR] Not connected to Redis.
+2023-07-15 17:55:21.422 +04:00 [ERR] Not connected to Redis.
+2023-07-15 17:55:21.451 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:02:31.702 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:02:31.788 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:02:31.922 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:20:15.469 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:20:15.562 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:20:15.588 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:24:44.647 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:24:44.705 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:24:44.732 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:24:44.741 +04:00 [ERR] Connection to Redis failed.
+StackExchange.Redis.RedisConnectionException: UnableToConnect on Redis-demo-app1.redis.cache.windows.net:6380/Subscription, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, last-mbeat: 0s ago, global: 1s ago, v: 2.2.4.27433
+2023-07-15 18:24:44.742 +04:00 [ERR] Connection to Redis failed.
+StackExchange.Redis.RedisConnectionException: UnableToConnect on Redis-demo-app1.redis.cache.windows.net:6380/Subscription, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, last-mbeat: 0s ago, global: 1s ago, v: 2.2.4.27433
+2023-07-15 18:34:38.887 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:34:38.886 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:34:38.910 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:43:18.125 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:43:18.259 +04:00 [ERR] Not connected to Redis.
+2023-07-15 18:43:18.263 +04:00 [ERR] Not connected to Redis.

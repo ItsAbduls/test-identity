@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kENFqUxV9Qp3UruGtactHsYft96TdwwJaRK2+K6+yVGFXU8zsMfkkzBCZrZTWC7qABlAZdvaggSKiUjKbyoypw==",
+  "success": true,
+  "projectFilePath": "D:\\courses\\signalR\\angular_core\\Insig\\Insig.PublishedLanguage\\Insig.PublishedLanguage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dragon\\.nuget\\packages\\nwebsec.aspnetcore.core\\3.0.0\\nwebsec.aspnetcore.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\nwebsec.aspnetcore.middleware\\3.0.0\\nwebsec.aspnetcore.middleware.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+D:\courses\signalR\angular_core\Insig\Insig.Common\bin\Debug\net6.0\Insig.Common.deps.json
+D:\courses\signalR\angular_core\Insig\Insig.Common\bin\Debug\net6.0\Insig.Common.dll
+D:\courses\signalR\angular_core\Insig\Insig.Common\bin\Debug\net6.0\Insig.Common.pdb
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\Insig.Common.csproj.AssemblyReference.cache
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\Insig.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\Insig.Common.AssemblyInfoInputs.cache
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\Insig.Common.AssemblyInfo.cs
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\Insig.Common.csproj.CoreCompileInputs.cache
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\Insig.Common.dll
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\refint\Insig.Common.dll
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\Insig.Common.pdb
+D:\courses\signalR\angular_core\Insig\Insig.Common\obj\Debug\net6.0\ref\Insig.Common.dll

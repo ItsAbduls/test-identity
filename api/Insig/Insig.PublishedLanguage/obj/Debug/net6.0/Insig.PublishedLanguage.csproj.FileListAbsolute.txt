@@ -1,0 +1,15 @@
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\bin\Debug\net6.0\Insig.PublishedLanguage.deps.json
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\bin\Debug\net6.0\Insig.PublishedLanguage.dll
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\bin\Debug\net6.0\Insig.PublishedLanguage.pdb
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\bin\Debug\net6.0\Insig.Common.dll
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\bin\Debug\net6.0\Insig.Common.pdb
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\Insig.PublishedLanguage.csproj.AssemblyReference.cache
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\Insig.PublishedLanguage.GeneratedMSBuildEditorConfig.editorconfig
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\Insig.PublishedLanguage.AssemblyInfoInputs.cache
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\Insig.PublishedLanguage.AssemblyInfo.cs
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\Insig.PublishedLanguage.csproj.CoreCompileInputs.cache
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\Insig.PublishedLanguage.csproj.CopyComplete
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\Insig.PublishedLanguage.dll
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\refint\Insig.PublishedLanguage.dll
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\Insig.PublishedLanguage.pdb
+D:\courses\signalR\angular_core\Insig\Insig.PublishedLanguage\obj\Debug\net6.0\ref\Insig.PublishedLanguage.dll

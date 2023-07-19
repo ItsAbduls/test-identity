@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "758ba3fd-ac4b-42a2-8cd6-a7909827a413": {
+      "ProjectGuid": "758ba3fd-ac4b-42a2-8cd6-a7909827a413",
+      "DisplayName": "Insig.Api",
+      "ColorIndex": 0
+    },
+    "88cfd398-f345-46f9-8fd4-d1606841981e": {
+      "ProjectGuid": "88cfd398-f345-46f9-8fd4-d1606841981e",
+      "DisplayName": "Insig.Infrastructure",
+      "ColorIndex": 1
+    },
+    "acc4cd97-73df-4975-a93f-7fe657a89417": {
+      "ProjectGuid": "acc4cd97-73df-4975-a93f-7fe657a89417",
+      "DisplayName": "Insig.IdentityServer",
+      "ColorIndex": 2
+    },
+    "b6fa49cc-9490-4845-950a-cde8c44d6183": {
+      "ProjectGuid": "b6fa49cc-9490-4845-950a-cde8c44d6183",
+      "DisplayName": "Insig.Integration.Tests",
+      "ColorIndex": 3
+    },
+    "4844ff0f-42f2-4a98-b349-a34bf87688aa": {
+      "ProjectGuid": "4844ff0f-42f2-4a98-b349-a34bf87688aa",
+      "DisplayName": "Insig.Web",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "93552137-36e2-4eef-b469-76f5192a5bfc": {
+      "ProjectGuid": "93552137-36e2-4eef-b469-76f5192a5bfc",
+      "DisplayName": "Insig.Common",
+      "ColorIndex": 5
+    },
+    "87395851-fdf2-403b-a596-4f68cd9b3183": {
+      "ProjectGuid": "87395851-fdf2-403b-a596-4f68cd9b3183",
+      "DisplayName": "Insig.ApplicationServices",
+      "ColorIndex": 6
+    },
+    "4356eb43-3cb4-45fa-90e3-89f2253dbdc1": {
+      "ProjectGuid": "4356eb43-3cb4-45fa-90e3-89f2253dbdc1",
+      "DisplayName": "Insig.Domain",
+      "ColorIndex": 7
+    },
+    "dacfc646-8d6a-4b8f-98e0-a93200fb9f71": {
+      "ProjectGuid": "dacfc646-8d6a-4b8f-98e0-a93200fb9f71",
+      "DisplayName": "Insig.PublishedLanguage",
+      "ColorIndex": 8
+    },
+    "4bc2ca37-3e16-47d7-86f7-910025921398": {
+      "ProjectGuid": "4bc2ca37-3e16-47d7-86f7-910025921398",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 9
+    },
+    "9191597a-e4c7-4797-966a-6e7a0ac58042": {
+      "ProjectGuid": "9191597a-e4c7-4797-966a-6e7a0ac58042",
+      "DisplayName": "Insig.Domain.Tests",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}

@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <p>message works!</p>
+        <p>{{count}}</p>
+    </div>
+    <div class="row">
+        <form>
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="emailHelp"
+                    [(ngModel)]="firstName">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">last name</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" [(ngModel)]="lastName">
+            </div>
+            <button type="submit" (click)="concatString()" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div>
+        <h3>{{viewCount}}</h3><br/>
+        <button class="btn btn-default" (click)="incrementViewCount()">Incremet View</button>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jMchx26bZ+jpSvB0mmMIdIQJj35QPnLvuJ0yG6nY0Lq9J2zMzeEJ94soajruGLkBb2E3p8BYOePSBYo9LFhcEw==",
+  "success": true,
+  "projectFilePath": "D:\\courses\\signalR\\angular_core\\Insig\\Insig.Domain\\Insig.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dragon\\.nuget\\packages\\ensure.that\\10.1.0\\ensure.that.10.1.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\nwebsec.aspnetcore.core\\3.0.0\\nwebsec.aspnetcore.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\nwebsec.aspnetcore.middleware\\3.0.0\\nwebsec.aspnetcore.middleware.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "hUWMuZi3zm+PvFIoXcAE7SkU6Tn2eDT7avjvxniPgOPyQxEWA9kn/Ve6H7T6NH3LvlgLlU49xc4uL6KvT7RH3w==",
+  "success": true,
+  "projectFilePath": "D:\\courses\\signalR\\angular_core\\Insig\\Insig.ApplicationServices\\Insig.ApplicationServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dragon\\.nuget\\packages\\ensure.that\\10.1.0\\ensure.that.10.1.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\nwebsec.aspnetcore.core\\3.0.0\\nwebsec.aspnetcore.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\nwebsec.aspnetcore.middleware\\3.0.0\\nwebsec.aspnetcore.middleware.3.0.0.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\dragon\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

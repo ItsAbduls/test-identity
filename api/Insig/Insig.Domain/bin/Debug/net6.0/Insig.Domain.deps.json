@@ -1,0 +1,88 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Insig.Domain/1.0.0": {
+        "dependencies": {
+          "Ensure.That": "10.1.0",
+          "Insig.Common": "1.0.0"
+        },
+        "runtime": {
+          "Insig.Domain.dll": {}
+        }
+      },
+      "Ensure.That/10.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/Ensure.That.dll": {
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "10.1.0.0"
+          }
+        }
+      },
+      "NWebsec.AspNetCore.Core/3.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/NWebsec.AspNetCore.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NWebsec.AspNetCore.Middleware/3.0.0": {
+        "dependencies": {
+          "NWebsec.AspNetCore.Core": "3.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NWebsec.AspNetCore.Middleware.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Insig.Common/1.0.0": {
+        "dependencies": {
+          "NWebsec.AspNetCore.Middleware": "3.0.0"
+        },
+        "runtime": {
+          "Insig.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Insig.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ensure.That/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rzTMSs0lQnu0WsesvTjs/zDzqiZXb9r5dv+wFQcPg/iIZqXb5BzwpIWEwi8Q3HA0TS4ytRcY129aSek6IzuOmA==",
+      "path": "ensure.that/10.1.0",
+      "hashPath": "ensure.that.10.1.0.nupkg.sha512"
+    },
+    "NWebsec.AspNetCore.Core/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dvrs4Lvc7k98KKaMxKPHeOn0kONEIQpVrzweji9SLl9XEn1+XWVJe5f7mNvXoKPKjjcNuBIwVXr3K+g+DzZHEw==",
+      "path": "nwebsec.aspnetcore.core/3.0.0",
+      "hashPath": "nwebsec.aspnetcore.core.3.0.0.nupkg.sha512"
+    },
+    "NWebsec.AspNetCore.Middleware/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQJUG6zk/96UaAcFaf3fQuzjAS9rsf2fXyks1YlG4E3QOWl0h6nIO9fMzfKoskRA+abs01rV+6Kc5P7xccXlzw==",
+      "path": "nwebsec.aspnetcore.middleware/3.0.0",
+      "hashPath": "nwebsec.aspnetcore.middleware.3.0.0.nupkg.sha512"
+    },
+    "Insig.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
